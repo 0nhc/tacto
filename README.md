@@ -1,4 +1,4 @@
-# My reimplementation of TACTO
+# My Re-implementation of TACTO
 ## 1. My PC Setup
 * Anaconda3
 * Ubuntu 20.04
