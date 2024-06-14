@@ -1,3 +1,27 @@
+# My reimplementation of TACTO
+## 1. My PC Setup
+* Anaconda3
+* Ubuntu 20.04
+* RTX 3090Ti
+* CUDA 12.2
+
+## 2. Installation
+```sh
+git clone https://github.com/0nhc/tacto
+cd tacto
+conda create -n tacto python=3.8
+conda activate tacto
+pip install -r env.txt # use [-i https://pypi.tuna.tsinghua.edu.cn/simple] if you're in China
+```
+
+##3. Demo
+```sh
+# Suppose you are in /tacto dir currently.
+cd /examples
+conda activate tacto
+python demo_pybullet_digit.py
+```
+
 # TACTO: A Fast, Flexible and Open-source Simulator for High-Resolution Vision-based Tactile Sensors
 
 [![License: MIT](https://img.shields.io/github/license/facebookresearch/tacto)](LICENSE)
