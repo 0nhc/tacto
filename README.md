@@ -14,13 +14,17 @@ conda activate tacto
 pip install -r env.txt # use [-i https://pypi.tuna.tsinghua.edu.cn/simple] if you're in China
 ```
 
-##3. Demo
+## 3. Demo
 ```sh
 # Suppose you are in /tacto dir currently.
 cd /examples
 conda activate tacto
 python demo_pybullet_digit.py
 ```
+
+</br>
+</br>
+</br>
 
 # TACTO: A Fast, Flexible and Open-source Simulator for High-Resolution Vision-based Tactile Sensors
 
